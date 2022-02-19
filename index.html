@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<head>
+    <link rel="stylesheet" href="index.css" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+</head>
+<body>
+<div class="container">
+  <div class="row">
+    <div class="col s12">
+      <h2 class='text-center'>Socle Vitrine <a href="#replace"><img style="height: 64px" src="data:image/png;base64,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"> </a></h2> </div></div>
+    <div class="row cards-container">
+
+    </div>
+  </div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/js-yaml/4.1.0/js-yaml.min.js"> </script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script>
+function readData(myData) {
+
+for (const property in myData) {
+
+
+const container = {
+    name: property,
+    shortText: myData[property]['short-description']['shortText'],
+    mainTags: myData[property]['short-description']['mainTags'],
+    mainImageUrl: myData[property]['description']['mainImageUrl'],
+    longText: myData[property]['description']['longText'],
+    tags: myData[property]['description']['tags'],
+    command: myData[property]['command'],
+    bio: 'Wes is a really cool guy that loves to teach web development!'
+}
+
+// And then create our markup:
+const markup=`
+       <div class="col xl4 l4  m5  s12    card blue-grey darken-1  ${container.name} ">
+             <div class="card-image waves-effect waves-block waves-light"> 
+      <img class="materialboxed" src="${container.mainImageUrl}">
+               
+      <span class="card-title"><span class="activator">${container.name}</span> <a class="modal-trigger" href="#${container.name}-install"><i class="material-icons ">file_download</i></a></span>
+    </div>
+         <div class="card-content white-text activator">
+           
+           <p>${container.shortText}</p>
+           </br>
+<ul class="dogs">
+    ${container.mainTags.map(mainTag => `<div class="chip">${mainTag}</div>`).join('')}
+
+         </div>
+         <div class="card-reveal">
+      <span class="card-title"><i class="material-icons right">close</i></span>
+
+      <p>${container.longText}</p>
+      <div><a href="#${container.name}" class="waves-effect waves-light btn modal-trigger"><i class="material-icons left">dvr</i>Command content</a></div>
+      </br>
+      <div>
+    ${Object.keys(container.tags).map(tag => `<div class="chip"><span style="color:blue;">${tag}</span>: ${container.tags[tag]}</div>`).join('')}
+      </div>
+    </div>
+         <div class="card-action">
+           <a href="#${container.name}-install" class="waves-effect waves-light btn modal-trigger"><i class="material-icons left">file_download</i>Install</a>
+           <a  class="waves-effect waves-light btn activator"><i class="material-icons left">info</i>Info</a>
+           
+         </div>
+        </div>
+  </div>
+  <div id="${container.name}" class="modal">
+    <div class="modal-content">
+      <h4>Command content</h4>
+      <pre>${container.command}</pre>
+    </div>
+    <div class="modal-footer">
+      <a href="#!" class="modal-close waves-effect waves-green btn">Close</a>
+    </div>
+  </div>
+   <div id="${container.name}-install" class="modal">
+    <div class="modal-content">
+      <h4>Install</h4>
+      <h5>Install socle if it's not installed</h5>
+      <pre> curl -L ${installUrl} | bash</pre>
+      <h5>create container</h5>
+      <pre> socle create ${container.name} exampleName</pre>
+      <h5>got to an clean(without x started) tty (example: ctrl+alt+f3)</h5>
+      <pre> socle x exampleName</pre>
+      <h5><div style="">Enjoy =)</div></h5>
+      </br>
+      <a href="${issueUrl}" class="waves-effect waves-light btn"><i class="material-icons left">warning</i>Create issue</a>
+    </div>
+    <div class="modal-footer">
+      <a href="#!" class="modal-close waves-effect waves-green btn">Close</a>
+    </div>
+  </div> 
+  
+`;
+//document.body.innerHTML = markup;
+$( ".cards-container" ).append(markup)
+const gitName="thomas10-10/SOCLE"
+
+const gitUrl="https://github.com/"+gitName
+const issueUrl="https://github.com/"+gitName+"/issues"
+const rawGitUrl="https://raw.githubusercontent.com/"+gitName+"/main/"
+const yaml=rawGitUrl+"socle.yml"
+const installUrl=rawGitUrl+"install.sh"
+$.( "[href='#replace']" ).attr("href",gitUrl)
+
+}
+}
+(function () {
+//"use strict";
+    $(document).ready(function () {
+        //$.get('https://raw.githubusercontent.com/starterTree/starterTree/master/configExample/config.yml')
+        $.get(yaml)
+        .done(function (data) {
+          console.log('File load complete');
+          console.log(jsyaml.load(data));
+          readData(jsyaml.load(data));
+            $('.collapsible').collapsible();
+            $('.modal').modal();
+            $('.materialboxed').materialbox();
+
+
+          //var jsonString = JSON.stringify(data);
+          //console.log(jsonString);
+          //console.log($.parseJSON(jsonString));
+      });
+    });
+}());
+
+
+
+</script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+<script>
+          $(document).ready(function(){
+            $('.collapsible').collapsible();
+          });
+          $(document).ready(function(){
+            $('.modal').modal();
+          });
+
+
+</script>
+
+
+</body>

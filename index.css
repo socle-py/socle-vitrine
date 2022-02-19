@@ -1,0 +1,68 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Orbitron&family=Press+Start+2P&family=Roboto+Mono&display=swap');
+
+.chip{
+  overflow: auto;
+}
+
+.text-center{
+  font-family: 'Press Start 2P', cursive;
+  color: #B53737;
+}
+
+.text-center {
+  text-align: center;
+}
+.btn{
+  color: red !important;
+  background-color: black !important;
+}
+
+.modal{
+  border: solid #546e7a 15px;
+}
+.row{
+  float: none !important;
+  margin-left: auto;
+  margin-right: auto;
+}
+pre{
+  overflow: auto;
+  background-color: black;
+  background-color: #546e7A;
+  color: red;
+  color: white;
+  padding: 5px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+h4{
+  font-family: 'Press Start 2P', cursive;
+  color: red;
+}
+body{
+  margin: 0 auto;
+  background-color: black;
+  font-family: 'Roboto Mono', monospace;
+}
+.card-title{
+  background-color: black;
+  color: red !important;
+  font-family: 'Orbitron', sans-serif;
+}
+
+
+.card{
+  margin-left: 15px !important;
+  margin-right: 15px !important;
+  padding: 0px !important;
+}
+
+.container {
+  margin: 0;
+  max-width: 80% !important;
+  width: 80% !important; 
+}
+
+
+
